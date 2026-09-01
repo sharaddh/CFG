@@ -2,9 +2,6 @@
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
     int t;
     cin >> t;
 
@@ -21,8 +18,9 @@ int main() {
 
             b1 += x;
 
-            if (i != 0)
+            if (i != 0) {
                 l1 += x - 1;
+            }
         }
 
         for (int i = 0; i < m; i++) {
@@ -31,11 +29,12 @@ int main() {
 
             b2 += x;
 
-            if (i != 0)
+            if (i != 0) {
                 l2 += x - 1;
+            }
         }
 
-        cout << (b1 - l1 > b2 - l2 ? 2 : 1) << '\n';
+        cout << (b1 - l1 >= b2 - l2 ? 2 : 1) << '\n';
     }
 
     return 0;
