@@ -34,7 +34,7 @@ int main() {
             }
         }
 
-        cout << (b1 - l1 >= b2 - l2 ? 2 : 1) << '\n';
+        cout << (b1 - l1 >= b2 - l2 ? 2 : 1) << endl;
     }
 
     return 0;
