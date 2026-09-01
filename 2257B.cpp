@@ -4,38 +4,20 @@ using namespace std;
 int main() {
     int t;
     cin >> t;
-
     while (t--) {
-        long long m, n;
-        cin >> m >> n;
-
-        long long b1 = 0, b2 = 0;
-        long long l1 = 0, l2 = 0;
-
-        for (int i = 0; i < n; i++) {
-            long long x;
-            cin >> x;
-
-            b1 += x;
-
-            if (i != 0) {
-                l1 += x - 1;
-            }
-        }
-
-        for (int i = 0; i < m; i++) {
-            long long x;
-            cin >> x;
-
-            b2 += x;
-
-            if (i != 0) {
-                l2 += x - 1;
-            }
-        }
-
-        cout << (b1 - l1 >= b2 - l2 ? 2 : 1) << endl;
+        int n, m;
+        cin >> n >> m;
+        
+        long long a1, b1;
+        // read all a, only need a[0]
+        cin >> a1;
+        for (int i = 1; i < n; i++) { long long x; cin >> x; }
+        
+        cin >> b1;
+        for (int i = 1; i < m; i++) { long long x; cin >> x; }
+        
+        // Bea goes first, so Bea wins if a[0] >= b[0]
+        cout << (a1 >= b1 ? 1 : 2) << "\n";
     }
-
     return 0;
 }
