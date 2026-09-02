@@ -6,7 +6,7 @@ int main() {
     cin >> t;
     while (t--) {
         int n, m;
-        cin >> n >> m;
+        cin >> n >> m;  
         
         long long a1, b1;
         // read all a, only need a[0]
