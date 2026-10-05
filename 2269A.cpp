@@ -1,33 +1,35 @@
-class Solution {
-public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> ans;
-        string cur;
+#include <iostream>
+using namespace std;
 
-        function<void(int, int)> dfs = [&](int open, int close) {
+int main()
+{
+    int t;
+    cin >> t;
 
-            // Valid complete string
-            if (open == 0 && close == 0) {
-                ans.push_back(cur);
-                return;
+    while (t--)
+    {
+        int n, k;
+        cin >> n >> k;
+
+        int standings = 1;
+        int card = 0;
+
+        while (n--)
+        {
+            standings = standings == 1 ? 2 : standings * 2;
+
+            if (k > 1)
+            {
+                card += standings;
+                k--;
+                standings = 1;
             }
+        }
 
-            // Add '('
-            if (open > 0) {
-                cur.push_back('(');
-                dfs(open - 1, close);
-                cur.pop_back();
-            }
+        card += standings;
 
-            // Add ')' only if it won't make the string invalid
-            if (close > open) {
-                cur.push_back(')');
-                dfs(open, close - 1);
-                cur.pop_back();
-            }
-        };
-
-        dfs(n, n);
-        return ans;
+        cout << card << endl;
     }
-};
+
+    return 0;
+}
