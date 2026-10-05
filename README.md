@@ -66,17 +66,6 @@ My C++ solutions to Codeforces problems and contests.
 | C | [c.cpp](contest/round%20194/c.cpp) |
 | D | [D.cpp](contest/round%20194/D.cpp) |
 
-## Other Files
-
-These files are present in the repository but do not identify a single problem by filename:
-
-- [A.cpp](A.cpp)
-- [D.cpp](D.cpp)
-- [D copy.cpp](D%20copy.cpp)
-- [D copy 2.cpp](D%20copy%202.cpp)
-- [solution.cpp](solution.cpp)
-- [tempCodeRunnerFile.cpp](tempCodeRunnerFile.cpp)
-
 ## Notes
 
 - Executable files are generated locally and are not listed as solutions.
