@@ -21,6 +21,6 @@ int main() {
 
         cout << rounds << "\n";
     }
-
+ 
     return 0;
 }
