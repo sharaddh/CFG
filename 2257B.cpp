@@ -1,34 +1,35 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
+ios::sync_with_stdio(false);
+cin.tie(nullptr);
 
-    while (t--) {
-        int n, m;
-        cin >> n >> m;
+int t;
+cin >> t;
 
-        long long sumA = 0, sumB = 0;
-        long long x;
+while (t--) {
+    int n, m;
+    cin >> n >> m;
 
-        for (int i = 0; i < n; i++) {
-            cin >> x;
-            sumA += x;
-        }
+    long long a, b, x;
 
-        for (int i = 0; i < m; i++) {
-            cin >> x;
-            sumB += x;
-        }
-
-        // Bea attacks first.
-        if (sumA >= sumB)
-            cout << 1 << '\n';
-        else
-            cout << 2 << '\n';
+    for (int i = 0; i < n; i++) {
+        cin >> x;
+        if (i == 0) a = x;
     }
 
-    return 0;
+    for (int i = 0; i < m; i++) {
+        cin >> x;
+        if (i == 0) b = x;
+    }
+
+    long long timeA = a + n - 1;
+    long long timeB = b + m - 1;
+
+    cout << (timeA >= timeB ? 1 : 2) << '\n';
+}
+
+return 0;
+
 }
