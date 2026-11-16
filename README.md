@@ -1,20 +1,20 @@
 # Competitive Programming Solutions
 
-My C++ solutions to Codeforces problems and contests.
+My C++ solutions to Codeforces problems, GYM and contests.
 
 ## Standalone Problems
 
 | Problem | Solution |
 | --- | --- |
-| [1352A - Sum of Round Numbers](https://codeforces.com/problemset/problem/1352/A) | [1352A.cpp](1352A.cpp) |
-| [160A - Twins](https://codeforces.com/problemset/problem/160/A) | [160A.cpp](160A.cpp) |
-| [1776A - Extremely Round](https://codeforces.com/problemset/problem/1776/A) | [1776A.cpp](1776A.cpp) |
-| [2062A - String](https://codeforces.com/problemset/problem/2062/A) | [2062A.cpp](2062A.cpp) |
-| [2148A - Sublime Sequence](https://codeforces.com/problemset/problem/2148/A) | [2148A.cpp](2148A.cpp) |
-| [2149A - Be Positive](https://codeforces.com/problemset/problem/2149/A) | [2149A.cpp](2149A.cpp) |
-| [2200A - Eating Game](https://codeforces.com/problemset/problem/2200/A) | [2200A.cpp](2200A.cpp) |
-| [2234B - Palindrome, Twelve and Two Terms](https://codeforces.com/problemset/problem/2234/B) | [2234B.cpp](2234B.cpp) |
-| [2236A - Games on a Strip](https://codeforces.com/problemset/problem/2236/A) | [2236A.cpp](2236A.cpp) |
+| [1352A](https://codeforces.com/problemset/problem/1352/A) | [1352A.cpp](1352A.cpp) |
+| [160A](https://codeforces.com/problemset/problem/160/A) | [160A.cpp](160A.cpp) |
+| [1776A](https://codeforces.com/problemset/problem/1776/A) | [1776A.cpp](1776A.cpp) |
+| [2062A](https://codeforces.com/problemset/problem/2062/A) | [2062A.cpp](2062A.cpp) |
+| [2148A](https://codeforces.com/problemset/problem/2148/A) | [2148A.cpp](2148A.cpp) |
+| [2149A](https://codeforces.com/problemset/problem/2149/A) | [2149A.cpp](2149A.cpp) |
+| [2200A](https://codeforces.com/problemset/problem/2200/A) | [2200A.cpp](2200A.cpp) |
+| [2234B](https://codeforces.com/problemset/problem/2234/B) | [2234B.cpp](2234B.cpp) |
+| [2236A](https://codeforces.com/problemset/problem/2236/A) | [2236A.cpp](2236A.cpp) |
 | [2242A](https://codeforces.com/problemset/problem/2242/A) | [2242A.cpp](2242A.cpp) |
 | [2244B](https://codeforces.com/problemset/problem/2244/B) | [2244B.cpp](2244B.cpp) |
 | [2246B](https://codeforces.com/problemset/problem/2246/B) | [2246B.cpp](2246B.cpp) |
@@ -56,9 +56,9 @@ My C++ solutions to Codeforces problems and contests.
 | [2276A](https://codeforces.com/problemset/problem/2276/A) | [2276A.cpp](2276A.cpp) |
 | [236A](https://codeforces.com/problemset/problem/236/A) | [236A.cpp](236A.cpp) |
 | [2298B](https://codeforces.com/problemset/problem/2298/B) | [2298B.cpp](2298B.cpp) |
-| [411A - Password Check](https://codeforces.com/problemset/problem/411/A) | [411A.cpp](411A.cpp) |
-| [617A - Elephant](https://codeforces.com/problemset/problem/617/A) | [617A.cpp](617A.cpp) |
-| [794A - Nachos](https://codeforces.com/problemset/problem/794/A) | [794A.cpp](794A.cpp) |
+| [411A](https://codeforces.com/problemset/problem/411/A) | [411A.cpp](411A.cpp) |
+| [617A](https://codeforces.com/problemset/problem/617/A) | [617A.cpp](617A.cpp) |
+| [794A](https://codeforces.com/problemset/problem/794/A) | [794A.cpp](794A.cpp) |
 
 ## Contest Solutions
 
