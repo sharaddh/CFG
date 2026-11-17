@@ -1,9 +1,10 @@
-#include <iostream>
-#include <vector>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int t;
     cin >> t;
 
@@ -11,30 +12,23 @@ int main() {
         int n;
         cin >> n;
 
-        vector<long long> w(n);
-        for (int i = 0; i < n; i++) {
-            cin >> w[i];
-        }
-
-        long long maxOdd = LLONG_MIN;
-        long long minOdd = LLONG_MAX;
         long long maxEven = LLONG_MIN;
-        long long minEven = LLONG_MAX;
+        long long minOdd = LLONG_MAX;
 
         for (int i = 0; i < n; i++) {
+            long long x;
+            cin >> x;
+
             if ((i + 1) % 2 == 1) {
-                maxOdd = max(maxOdd, w[i]);
-                minOdd = min(minOdd, w[i]);
-            } else { 
-                maxEven = max(maxEven, w[i]);
-                minEven = min(minEven, w[i]);
+                minOdd = min(minOdd, x);
+            } else {
+                maxEven = max(maxEven, x);
             }
         }
 
-        bool pattern1 = (minOdd > maxEven + 1);
-        bool pattern2 = (minEven > maxOdd + 1);
+        bool ans = (n % 2 == 0 && minOdd > maxEven + 1);
 
-        cout << (pattern1 || pattern2 ? "YES" : "NO") << "\n";
+        cout << (ans ? "YES" : "NO") << '\n';
     }
 
     return 0;
